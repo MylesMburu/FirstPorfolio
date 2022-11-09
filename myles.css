@@ -5,27 +5,24 @@ body {
     background-color: #76C893;
     font-size: 50px;
     color: white;
-    text-align: center;
+    text-align: left;
   }
   ul {
     list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 15%;
   background-color:#333;
-  height: 100%; /* Full height */
-  position: fixed; /* Make it stick, even on scroll */
-  overflow: auto;
+  overflow: hidden;
   }
   
   li {
-    float: none;
+    float: left;
   }
   
   li a {
     display: block;
     color: white;
-    /*text-align: center;*/
+    text-align: center;
     padding: 15px 10px;
     font-size: 20px;
     text-decoration: none;
@@ -50,7 +47,7 @@ body {
   }
   main {
     color: white;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: "Playfair", Times, serif;
     font-size: 30px;
     text-decoration: none;
   }
@@ -58,5 +55,10 @@ body {
     /*position: absolute;*/
     top: 0%;
     left: 0%;
-    margin-left: 60vh;
+    margin-left: 20vh;
+  }
+  h2{
+    top: 0%;
+    left: 0%;
+    margin-left: 20vh;
   }
