@@ -1,12 +1,12 @@
 body {
     background-color: #168AAD ;
   }
-  header {
+/* header {
     background-color: #76C893;
     font-size: 50px;
     color: white;
     text-align: left;
-  }
+  } */
   ul {
     list-style-type: none;
   margin: 0;
@@ -16,7 +16,7 @@ body {
   }
   
   li {
-    float: left;
+    float: right;
   }
   
   li a {
@@ -60,5 +60,9 @@ body {
   h2{
     top: 0%;
     left: 0%;
+    margin-left: 20vh;
+    color: #333;
+  }
+  h4{
     margin-left: 20vh;
   }
