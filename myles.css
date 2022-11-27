@@ -8,6 +8,9 @@ body {
     text-align: left;
   } */
   ul {
+    position: fixed;
+    width: 100%;
+    top: 0;
     list-style-type: none;
   margin: 0;
   padding: 0;
@@ -61,8 +64,12 @@ body {
     top: 0%;
     left: 0%;
     margin-left: 20vh;
+
     color: #333;
   }
   h4{
     margin-left: 20vh;
+  }
+  .Home_section{
+    margin-top: 10vh;
   }
