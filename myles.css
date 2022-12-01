@@ -73,3 +73,18 @@ body {
   .Home_section{
     margin-top: 10vh;
   }
+  /* footer */
+  footer{
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 4em;
+    padding-bottom: 5em;
+    align-items: center;
+    text-align: start;
+    height: 150px;
+  }
+  .Contacts_section{
+    text-align: center;
+  }
